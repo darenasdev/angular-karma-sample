@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="bower_components/angular/angular.js"></script>
+<script src="js/studentCtrl.js"></script>
+
+</head>
+<body ng-app=myapp>
+<div ng-controller=studentCtrl>
+
+
+<ul>
+<li ng-repeat="student in students">
+    <span>{{student.name}}</span>
+    <p>{{student.rollno}}</p>
+    </li>
+  </ul>
+
+</div>
+
+</body>
+</html>

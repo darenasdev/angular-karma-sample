@@ -1,0 +1,12 @@
+{
+    "name": "angular-karma-sample",
+    "version": "1.0",
+    "authors": [
+        "ravthiru@gmail.com"
+    ],
+    "description": "Sample AngularJS app with unit test using karma",
+    "dependencies": {
+        "angular": "1.4.x",
+		"angular-mocks": "1.4.x"
+    }
+}
